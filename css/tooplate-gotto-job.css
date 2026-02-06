@@ -1167,20 +1167,26 @@ nav[aria-label="breadcrumb"] {
   REMOTE BADGE - Only for remote jobs
 -----------------------------------------*/
 .remote-job .badge {
-  text-transform: uppercase;   /* makes text all caps */
-  font-weight: 600;            /* slightly bold */
-  background-color: #198754;   /* green pill */
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.9rem;
+
+  background-color: #dc3545;
   color: #ffffff;
-  padding: 0.25rem 0.5rem;
-  border-radius: 0.25rem;
-  font-size: 0.8rem;
-  margin-left: 0.25rem;
+
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+  letter-spacing: 0.05em;
+
+  margin-left: 0.5rem;
+  display: inline-block;
 }
 
 .remote-job .badge:hover {
-  background-color: #157347;   /* slightly darker on hover */
-  color: #ffffff;
+  background-color: #bb2d3b;        /* darker red on hover */
+  transform: translateY(-1px);      /* subtle lift */
 }
+
 
 
 
