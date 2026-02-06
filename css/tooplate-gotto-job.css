@@ -1164,28 +1164,24 @@ nav[aria-label="breadcrumb"] {
 }
 
 /*---------------------------------------
-  JOB TITLES - LARGE & BOLD
+  REMOTE BADGE - Only for remote jobs
 -----------------------------------------*/
-.job-title {
-  font-size: 2rem;       /* larger than meta info */
-  font-weight: 800;      /* bold */
-  line-height: 1.2;
-  margin-bottom: 0.5rem;
-  color: #212529;
+.remote-job .badge {
+  text-transform: uppercase;   /* makes text all caps */
+  font-weight: 600;            /* slightly bold */
+  background-color: #198754;   /* green pill */
+  color: #ffffff;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.8rem;
+  margin-left: 0.25rem;
 }
 
-.job-title-link {
-  font-size: 2rem;       /* match container */
-  font-weight: 800;      /* bold */
-  color: #212529;
-  text-decoration: none;
-  transition: color 0.2s ease;
+.remote-job .badge:hover {
+  background-color: #157347;   /* slightly darker on hover */
+  color: #ffffff;
 }
 
-.job-title-link:hover,
-.job-title-link:focus {
-  color: #198754;        /* optional hover highlight */
-}
 
 
 
